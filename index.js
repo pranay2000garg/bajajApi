@@ -39,6 +39,6 @@ app.post('/bfhl',(req,res)=>{
     }
 })
 
-app.listen(8000 || process.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server is running at port 8000");
 });
